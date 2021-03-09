@@ -38,6 +38,7 @@ h2{
     width:100%;
     padding-bottom:56.25%;
     height: 0;
+    box-shadow: 0 0 10px black;
 }
 .iframe-container iframe{
     position: absolute;
@@ -52,8 +53,13 @@ h2{
     list-style: none;
     margin: 20px 0px;
 }
+
 .socialmedia img{
     width: 33px;
+}
+.video{
+    margin-left: auto;
+    margin-right: auto;
 }
 .links-list{
     list-style: none;
@@ -70,6 +76,14 @@ h2{
     text-decoration: none;
     color: rgb(3, 3, 3);
     font-weight: bold;
+}
+.links-list li a:hover{
+    background: #c4c4c4;
+    color: white;
+}
+.links-list li a span:hover{
+   
+    color:black;
 }
 .links-list li a span{
     color: grey;
